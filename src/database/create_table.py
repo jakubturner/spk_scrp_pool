@@ -1,4 +1,4 @@
-from src.database import config
+from src.database.database import config
 import psycopg2
 
 
