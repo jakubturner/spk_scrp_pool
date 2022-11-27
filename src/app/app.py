@@ -2,7 +2,8 @@ import psycopg2
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
-from database import config
+
+from src.database import config
 
 
 class App:

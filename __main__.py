@@ -1,6 +1,6 @@
 import asyncio
 
-from src.app import App
+from src.app.app import App
 
 
 async def run() -> None:
