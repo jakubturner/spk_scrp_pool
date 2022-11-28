@@ -1,4 +1,4 @@
-from src.database.database import config
+from src.spk_scrp.database.database import config
 import psycopg2
 
 

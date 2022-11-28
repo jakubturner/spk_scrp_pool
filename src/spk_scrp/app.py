@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
 
-from src.database.database import config
+from .database.database import config
 
 
 class App:

@@ -1,6 +1,6 @@
 import asyncio
 
-from src.spk_scrp.app import App
+from .app import App
 
 
 async def run() -> None:
