@@ -1,6 +1,8 @@
 import asyncio
+import schedule
+import time
 
-from .app import App
+from src.spk_scrp.app import App
 
 
 async def run() -> None:
@@ -15,6 +17,13 @@ async def run() -> None:
 
 def main() -> None:
     asyncio.run(run())
+
+
+schedule.every(1).minutes.do(main)
+
+while True:
+    schedule.run_pending()
+    time.sleep(1)
 
 
 if __name__ == "__main__":

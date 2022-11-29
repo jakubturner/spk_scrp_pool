@@ -2,3 +2,4 @@ database.ini
 /.idea
 /cron.txt
 *.pyc
+*.idea
