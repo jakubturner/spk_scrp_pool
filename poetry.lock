@@ -6,11 +6,6 @@ category = "dev"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 
-[package.source]
-type = "legacy"
-url = "https://artifactory.ida.avast.com/artifactory/api/pypi/pypi-remote/simple"
-reference = "avast-ida-remote"
-
 [[package]]
 name = "attrs"
 version = "22.1.0"
@@ -24,11 +19,6 @@ dev = ["cloudpickle", "coverage[toml] (>=5.0.2)", "furo", "hypothesis", "mypy (>
 docs = ["furo", "sphinx", "sphinx-notfound-page", "zope.interface"]
 tests = ["cloudpickle", "coverage[toml] (>=5.0.2)", "hypothesis", "mypy (>=0.900,!=0.940)", "pympler", "pytest (>=4.3.0)", "pytest-mypy-plugins", "zope.interface"]
 tests_no_zope = ["cloudpickle", "coverage[toml] (>=5.0.2)", "hypothesis", "mypy (>=0.900,!=0.940)", "pympler", "pytest (>=4.3.0)", "pytest-mypy-plugins"]
-
-[package.source]
-type = "legacy"
-url = "https://artifactory.ida.avast.com/artifactory/api/pypi/pypi-remote/simple"
-reference = "avast-ida-remote"
 
 [[package]]
 name = "beautifulsoup4"
@@ -45,11 +35,6 @@ soupsieve = ">1.2"
 html5lib = ["html5lib"]
 lxml = ["lxml"]
 
-[package.source]
-type = "legacy"
-url = "https://artifactory.ida.avast.com/artifactory/api/pypi/pypi-remote/simple"
-reference = "avast-ida-remote"
-
 [[package]]
 name = "certifi"
 version = "2022.9.24"
@@ -57,11 +42,6 @@ description = "Python package for providing Mozilla's CA Bundle."
 category = "main"
 optional = false
 python-versions = ">=3.6"
-
-[package.source]
-type = "legacy"
-url = "https://artifactory.ida.avast.com/artifactory/api/pypi/pypi-remote/simple"
-reference = "avast-ida-remote"
 
 [[package]]
 name = "charset-normalizer"
@@ -74,11 +54,6 @@ python-versions = ">=3.6.0"
 [package.extras]
 unicode_backport = ["unicodedata2"]
 
-[package.source]
-type = "legacy"
-url = "https://artifactory.ida.avast.com/artifactory/api/pypi/pypi-remote/simple"
-reference = "avast-ida-remote"
-
 [[package]]
 name = "colorama"
 version = "0.4.6"
@@ -86,11 +61,6 @@ description = "Cross-platform colored terminal text."
 category = "dev"
 optional = false
 python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,!=3.5.*,!=3.6.*,>=2.7"
-
-[package.source]
-type = "legacy"
-url = "https://artifactory.ida.avast.com/artifactory/api/pypi/pypi-remote/simple"
-reference = "avast-ida-remote"
 
 [[package]]
 name = "idna"
@@ -100,11 +70,6 @@ category = "main"
 optional = false
 python-versions = ">=3.5"
 
-[package.source]
-type = "legacy"
-url = "https://artifactory.ida.avast.com/artifactory/api/pypi/pypi-remote/simple"
-reference = "avast-ida-remote"
-
 [[package]]
 name = "more-itertools"
 version = "9.0.0"
@@ -112,11 +77,6 @@ description = "More routines for operating on iterables, beyond itertools"
 category = "dev"
 optional = false
 python-versions = ">=3.7"
-
-[package.source]
-type = "legacy"
-url = "https://artifactory.ida.avast.com/artifactory/api/pypi/pypi-remote/simple"
-reference = "avast-ida-remote"
 
 [[package]]
 name = "mysql-connector-python"
@@ -134,11 +94,6 @@ compression = ["lz4 (>=2.1.6,<=3.1.3)", "zstandard (>=0.12.0,<=0.15.2)"]
 dns-srv = ["dnspython (>=1.16.0,<=2.1.0)"]
 gssapi = ["gssapi (>=1.6.9,<=1.8.1)"]
 
-[package.source]
-type = "legacy"
-url = "https://artifactory.ida.avast.com/artifactory/api/pypi/pypi-remote/simple"
-reference = "avast-ida-remote"
-
 [[package]]
 name = "packaging"
 version = "21.3"
@@ -149,11 +104,6 @@ python-versions = ">=3.6"
 
 [package.dependencies]
 pyparsing = ">=2.0.2,<3.0.5 || >3.0.5"
-
-[package.source]
-type = "legacy"
-url = "https://artifactory.ida.avast.com/artifactory/api/pypi/pypi-remote/simple"
-reference = "avast-ida-remote"
 
 [[package]]
 name = "pluggy"
@@ -166,11 +116,6 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 [package.extras]
 dev = ["pre-commit", "tox"]
 
-[package.source]
-type = "legacy"
-url = "https://artifactory.ida.avast.com/artifactory/api/pypi/pypi-remote/simple"
-reference = "avast-ida-remote"
-
 [[package]]
 name = "protobuf"
 version = "3.20.1"
@@ -178,24 +123,6 @@ description = "Protocol Buffers"
 category = "main"
 optional = false
 python-versions = ">=3.7"
-
-[package.source]
-type = "legacy"
-url = "https://artifactory.ida.avast.com/artifactory/api/pypi/pypi-remote/simple"
-reference = "avast-ida-remote"
-
-[[package]]
-name = "psycopg2"
-version = "2.9.5"
-description = "psycopg2 - Python-PostgreSQL Database Adapter"
-category = "main"
-optional = false
-python-versions = ">=3.6"
-
-[package.source]
-type = "legacy"
-url = "https://artifactory.ida.avast.com/artifactory/api/pypi/pypi-remote/simple"
-reference = "avast-ida-remote"
 
 [[package]]
 name = "psycopg2-binary"
@@ -205,11 +132,6 @@ category = "main"
 optional = false
 python-versions = ">=3.6"
 
-[package.source]
-type = "legacy"
-url = "https://artifactory.ida.avast.com/artifactory/api/pypi/pypi-remote/simple"
-reference = "avast-ida-remote"
-
 [[package]]
 name = "py"
 version = "1.11.0"
@@ -217,11 +139,6 @@ description = "library with cross-python path, ini-parsing, io, code, log facili
 category = "dev"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
-
-[package.source]
-type = "legacy"
-url = "https://artifactory.ida.avast.com/artifactory/api/pypi/pypi-remote/simple"
-reference = "avast-ida-remote"
 
 [[package]]
 name = "pyparsing"
@@ -233,11 +150,6 @@ python-versions = ">=3.6.8"
 
 [package.extras]
 diagrams = ["jinja2", "railroad-diagrams"]
-
-[package.source]
-type = "legacy"
-url = "https://artifactory.ida.avast.com/artifactory/api/pypi/pypi-remote/simple"
-reference = "avast-ida-remote"
 
 [[package]]
 name = "pytest"
@@ -261,11 +173,6 @@ wcwidth = "*"
 checkqa-mypy = ["mypy (==v0.761)"]
 testing = ["argcomplete", "hypothesis (>=3.56)", "mock", "nose", "requests", "xmlschema"]
 
-[package.source]
-type = "legacy"
-url = "https://artifactory.ida.avast.com/artifactory/api/pypi/pypi-remote/simple"
-reference = "avast-ida-remote"
-
 [[package]]
 name = "requests"
 version = "2.28.1"
@@ -284,11 +191,6 @@ urllib3 = ">=1.21.1,<1.27"
 socks = ["PySocks (>=1.5.6,!=1.5.7)"]
 use_chardet_on_py3 = ["chardet (>=3.0.2,<6)"]
 
-[package.source]
-type = "legacy"
-url = "https://artifactory.ida.avast.com/artifactory/api/pypi/pypi-remote/simple"
-reference = "avast-ida-remote"
-
 [[package]]
 name = "soupsieve"
 version = "2.3.2.post1"
@@ -296,11 +198,6 @@ description = "A modern CSS selector implementation for Beautiful Soup."
 category = "main"
 optional = false
 python-versions = ">=3.6"
-
-[package.source]
-type = "legacy"
-url = "https://artifactory.ida.avast.com/artifactory/api/pypi/pypi-remote/simple"
-reference = "avast-ida-remote"
 
 [[package]]
 name = "urllib3"
@@ -315,11 +212,6 @@ brotli = ["brotli (>=1.0.9)", "brotlicffi (>=0.8.0)", "brotlipy (>=0.6.0)"]
 secure = ["certifi", "cryptography (>=1.3.4)", "idna (>=2.0.0)", "ipaddress", "pyOpenSSL (>=0.14)", "urllib3-secure-extra"]
 socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 
-[package.source]
-type = "legacy"
-url = "https://artifactory.ida.avast.com/artifactory/api/pypi/pypi-remote/simple"
-reference = "avast-ida-remote"
-
 [[package]]
 name = "wcwidth"
 version = "0.2.5"
@@ -328,15 +220,10 @@ category = "dev"
 optional = false
 python-versions = "*"
 
-[package.source]
-type = "legacy"
-url = "https://artifactory.ida.avast.com/artifactory/api/pypi/pypi-remote/simple"
-reference = "avast-ida-remote"
-
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "a8d83c104d1462329e5e47a562d5e168ef7c4f980b37bada7b664b628827d7f1"
+content-hash = "e980a88156161ee155fef1394d4eafe153ef1d7ed8eea02ffbb8cb9c4e141ff6"
 
 [metadata.files]
 atomicwrites = [
@@ -432,21 +319,6 @@ protobuf = [
     {file = "protobuf-3.20.1-py2.py3-none-any.whl", hash = "sha256:adfc6cf69c7f8c50fd24c793964eef18f0ac321315439d94945820612849c388"},
     {file = "protobuf-3.20.1.tar.gz", hash = "sha256:adc31566d027f45efe3f44eeb5b1f329da43891634d61c75a5944e9be6dd42c9"},
 ]
-psycopg2 = [
-    {file = "psycopg2-2.9.5-cp310-cp310-win32.whl", hash = "sha256:d3ef67e630b0de0779c42912fe2cbae3805ebaba30cda27fea2a3de650a9414f"},
-    {file = "psycopg2-2.9.5-cp310-cp310-win_amd64.whl", hash = "sha256:4cb9936316d88bfab614666eb9e32995e794ed0f8f6b3b718666c22819c1d7ee"},
-    {file = "psycopg2-2.9.5-cp311-cp311-win32.whl", hash = "sha256:093e3894d2d3c592ab0945d9eba9d139c139664dcf83a1c440b8a7aa9bb21955"},
-    {file = "psycopg2-2.9.5-cp311-cp311-win_amd64.whl", hash = "sha256:920bf418000dd17669d2904472efeab2b20546efd0548139618f8fa305d1d7ad"},
-    {file = "psycopg2-2.9.5-cp36-cp36m-win32.whl", hash = "sha256:b9ac1b0d8ecc49e05e4e182694f418d27f3aedcfca854ebd6c05bb1cffa10d6d"},
-    {file = "psycopg2-2.9.5-cp36-cp36m-win_amd64.whl", hash = "sha256:fc04dd5189b90d825509caa510f20d1d504761e78b8dfb95a0ede180f71d50e5"},
-    {file = "psycopg2-2.9.5-cp37-cp37m-win32.whl", hash = "sha256:922cc5f0b98a5f2b1ff481f5551b95cd04580fd6f0c72d9b22e6c0145a4840e0"},
-    {file = "psycopg2-2.9.5-cp37-cp37m-win_amd64.whl", hash = "sha256:1e5a38aa85bd660c53947bd28aeaafb6a97d70423606f1ccb044a03a1203fe4a"},
-    {file = "psycopg2-2.9.5-cp38-cp38-win32.whl", hash = "sha256:f5b6320dbc3cf6cfb9f25308286f9f7ab464e65cfb105b64cc9c52831748ced2"},
-    {file = "psycopg2-2.9.5-cp38-cp38-win_amd64.whl", hash = "sha256:1a5c7d7d577e0eabfcf15eb87d1e19314c8c4f0e722a301f98e0e3a65e238b4e"},
-    {file = "psycopg2-2.9.5-cp39-cp39-win32.whl", hash = "sha256:322fd5fca0b1113677089d4ebd5222c964b1760e361f151cbb2706c4912112c5"},
-    {file = "psycopg2-2.9.5-cp39-cp39-win_amd64.whl", hash = "sha256:190d51e8c1b25a47484e52a79638a8182451d6f6dff99f26ad9bd81e5359a0fa"},
-    {file = "psycopg2-2.9.5.tar.gz", hash = "sha256:a5246d2e683a972e2187a8714b5c2cf8156c064629f9a9b1a873c1730d9e245a"},
-]
 psycopg2-binary = [
     {file = "psycopg2-binary-2.9.5.tar.gz", hash = "sha256:33e632d0885b95a8b97165899006c40e9ecdc634a529dca7b991eb7de4ece41c"},
     {file = "psycopg2_binary-2.9.5-cp310-cp310-macosx_10_15_x86_64.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl", hash = "sha256:0775d6252ccb22b15da3b5d7adbbf8cfe284916b14b6dc0ff503a23edb01ee85"},
@@ -471,8 +343,6 @@ psycopg2-binary = [
     {file = "psycopg2_binary-2.9.5-cp311-cp311-musllinux_1_1_i686.whl", hash = "sha256:e67b3c26e9b6d37b370c83aa790bbc121775c57bfb096c2e77eacca25fd0233b"},
     {file = "psycopg2_binary-2.9.5-cp311-cp311-musllinux_1_1_ppc64le.whl", hash = "sha256:5fc447058d083b8c6ac076fc26b446d44f0145308465d745fba93a28c14c9e32"},
     {file = "psycopg2_binary-2.9.5-cp311-cp311-musllinux_1_1_x86_64.whl", hash = "sha256:d892bfa1d023c3781a3cab8dd5af76b626c483484d782e8bd047c180db590e4c"},
-    {file = "psycopg2_binary-2.9.5-cp311-cp311-win32.whl", hash = "sha256:2abccab84d057723d2ca8f99ff7b619285d40da6814d50366f61f0fc385c3903"},
-    {file = "psycopg2_binary-2.9.5-cp311-cp311-win_amd64.whl", hash = "sha256:bef7e3f9dc6f0c13afdd671008534be5744e0e682fb851584c8c3a025ec09720"},
     {file = "psycopg2_binary-2.9.5-cp36-cp36m-macosx_10_14_x86_64.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl", hash = "sha256:6e63814ec71db9bdb42905c925639f319c80e7909fb76c3b84edc79dadef8d60"},
     {file = "psycopg2_binary-2.9.5-cp36-cp36m-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:212757ffcecb3e1a5338d4e6761bf9c04f750e7d027117e74aa3cd8a75bb6fbd"},
     {file = "psycopg2_binary-2.9.5-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:6f8a9bcab7b6db2e3dbf65b214dfc795b4c6b3bb3af922901b6a67f7cb47d5f8"},
