@@ -19,7 +19,7 @@ def main() -> None:
     asyncio.run(run())
 
 
-schedule.every(1).minutes.do(main)
+schedule.every(10).minutes.do(main)
 
 while True:
     schedule.run_pending()
