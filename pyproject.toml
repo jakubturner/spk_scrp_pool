@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "job_scrp"
 version = "0.1.0"
-description = "project for sraping data about spk swimming pool and sauna capacity"
+description = "project for scraping data about spk swimming pool and sauna capacity"
 authors = ["Jakub Turner <kuba.turner@gmail.com>"]
 packages = [
     {include="spk_scrp", from="src"}
